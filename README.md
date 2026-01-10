@@ -39,3 +39,33 @@ graph TD
     E --> F;
     F --> G[Validation Rules];
     G --> H[Output: Standardized Master Data];
+
+## Project Structure (项目结构)
+Fund-Data-ETL-Pipeline/
+├── src/
+│   ├── extractors/       # Specific logic for different banks/platforms
+│   ├── processors/       # Data cleaning and normalization modules
+│   └── utils/            # Helper functions (File IO, Logger)
+├── data/
+│   ├── input/            # Place raw statements here (GitIgnored)
+│   └── output/           # Result files generated here
+├── main.py               # Entry point of the application
+├── requirements.txt      # Dependencies
+└── README.md             # Project documentation
+
+##Quick Start (如何运行)
+1. Clone the repository:
+git clone [https://github.com/chenshuting-nancy/Fund-Data-ETL-Pipeline.git](https://github.com/chenshuting-nancy/Fund-Data-ETL-Pipeline.git)
+
+2.Install dependencies:
+pip install -r requirements.txt
+
+3.Run the pipeline: Place your raw Excel/PDF files in the data/input folder and run:
+python main.py
+
+##Disclaimer (免责声明)
+This project is a portfolio demonstration. All sensitive business logic, proprietary algorithms, and real financial data have been removed or obfuscated to comply with data privacy regulations. The uploaded code represents the structural framework and general processing logic.
+
+Author: Nancy Chen
+Contact: nancychenshuting@hotmail.com
+Open to freelance opportunities in Financial Automation & Python Development.
