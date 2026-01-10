@@ -70,6 +70,8 @@ python main.py
 ## Disclaimer (免责声明)
 This project is a portfolio demonstration. All sensitive business logic, proprietary algorithms, and real financial data have been removed or obfuscated to comply with data privacy regulations. The uploaded code represents the structural framework and general processing logic.
 
-Author: Nancy Chen
-Contact: nancychenshuting@hotmail.com
-Open to freelance opportunities in Financial Automation & Python Development.
+---
+### Contact & Availability
+* **Author:** Nancy Chen
+* **Email:** nancychenshuting@hotmail.com
+* **Status:** *Open to freelance opportunities in Financial Automation & Python Development.*
