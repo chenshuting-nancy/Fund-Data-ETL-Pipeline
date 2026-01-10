@@ -42,6 +42,8 @@ graph TD
 ```
 
 ## Project Structure (项目结构)
+
+```text
 Fund-Data-ETL-Pipeline/
 ├── src/
 │   ├── extractors/       # Specific logic for different banks/platforms
@@ -53,6 +55,7 @@ Fund-Data-ETL-Pipeline/
 ├── main.py               # Entry point of the application
 ├── requirements.txt      # Dependencies
 └── README.md             # Project documentation
+```
 
 ## Quick Start (如何运行)
 1. Clone the repository:
