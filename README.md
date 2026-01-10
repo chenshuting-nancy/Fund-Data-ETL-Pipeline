@@ -6,11 +6,14 @@
 
 ## Project Overview (项目简介)
 
-**Fund Data ETL Pipeline** is an automated data processing solution designed to tackle the fragmentation of financial data in Asset Management. 
+**Fund Data ETL Pipeline** is an automated data processing solution designed to tackle the fragmentation of **daily fund transaction statements** for **investment portfolios** that traditionally require manual entry.
+> **项目背景：** 本项目旨在解决资管产品（Investment Portfolios）每日需手工录入繁杂基金单据（Transaction Statements）的痛点。
 
-In the mutual fund industry, transaction statements come from diverse sources with inconsistent formats. This tool serves as a **Unified Data Adaptor**, capable of automatically identifying, extracting, and standardizing data from **20+ distribution platforms** (Banks, Brokerages, Third-party agencies) and **5 core document types**.
+In the asset management industry, fund transaction data originates from diverse **distribution platforms** (Sales Agencies) with inconsistent formats. This tool serves as a **Unified Data Adaptor**, capable of automatically identifying, extracting, and standardizing data from **20+ distribution platforms** (Banks, Third-party agencies) covering **5 core transaction types** (Subscription, Redemption, Dividend, etc.).
+> **核心痛点：** 在资管行业，交易数据来自各类**代销机构/平台**，格式千差万别。本工具作为一个**统一数据适配器**，能够自动识别、提取并标准化来自 **20+家代销机构** 的数据，覆盖 **5种核心业务类型**（申购、赎回、分红等）。
 
-> **Impact:** This tool transforms a manual reconciliation process that typically takes hours into a sub-minute automated task, ensuring 100% data accuracy for Hundsun valuation systems.
+> **Impact:** This tool transforms a **manual data entry process** that typically takes hours into a sub-minute automated task, ensuring 100% data accuracy for Hundsun valuation systems.
+> **项目成效：** 将原本耗时数小时的**手工录入单据**流程转化为分钟级的自动化任务，并确保恒生估值系统（Hundsun）入库数据的100%准确率。
 
 ## Key Features (核心功能)
 
